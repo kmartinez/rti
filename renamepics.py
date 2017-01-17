@@ -22,13 +22,13 @@ if os.path.isfile(sys.argv[1] + "/0.jpg") :
 # flag to say we need to convert the folder
 needsconversion = 0
 
-filelist = glob.glob(sys.argv[1] + '/*.JPG')
+filelist = sorted(glob.glob(sys.argv[1] + '/*.JPG'))
 if len(filelist) != 0:
 	print "its a .JPG picture folder"
 	needsconversion = 1
 else:
 	# check if its an incoming .jpg
-	filelist = glob.glob(sys.argv[1] + '/*.jpg')
+	filelist = sorted(glob.glob(sys.argv[1] + '/*.jpg'))
 	if len(filelist) != 0:
 		print "its a .jpg picture folder"
 		needsconversion = 1
