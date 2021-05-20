@@ -1,7 +1,7 @@
 utilities for RTI imaging
 
-You can sort out a stream of images using Phil's RTI Card Importer (best to copy from camera first).
+You can organise a stream of RTI images from a camera using Phil's RTI Card Importer (best to copy from camera first).
 
-You can run ptmfitter on the rti tree using his RTI Processor.
+You can run John Cupitt's faster ptmfit on the rti tree using Phil's RTI Processor.
 
-(Which uses John's fast PTM fitter)
+A copy of HP's original PTM fitter is zipped here for use with RTIBuilder to make lp files.
