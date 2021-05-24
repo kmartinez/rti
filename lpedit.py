@@ -2,9 +2,9 @@
 # crop off image name and path from the lp file
 # replace by incrementing name like 000.jpg 001.jpg...
 # redirect output to your new lp file
-# there must be a better way buy hey it took minutes to get this far
+# e.g. python lpedit.py oldlp.lp > newlp.lp
 
-# km oct 2016
+# Kirk Martinez oct 2016
 import sys
 
 linenum = 0
